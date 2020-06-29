@@ -86,36 +86,24 @@ Please run `flake8 --ignore E501 .` and `python ./scripts/test_before_push.py` b
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@InProceedings{Shen_2020_WACV,
-author = {Shen, Zengming and Zhou, S. Kevin and Chen, Yifan and Georgescu, Bogdan and Liu, Xuqi and Huang, Thomas},
-title = {One-to-one Mapping for Unpaired Image-to-image Translation},
-booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
-month = {March},
-year = {2020}
+@inproceedings{shen2020one,
+  title={One-to-one Mapping for Unpaired Image-to-image Translation},
+  author={Shen, Zengming and Zhou, S Kevin and Chen, Yifan and Georgescu, Bogdan and Liu, Xuqi and Huang, Thomas},
+  booktitle={The IEEE Winter Conference on Applications of Computer Vision},
+  pages={1170--1179},
+  year={2020}
 }
-
-@inproceedings{DBLP:conf/isbi/ShenCZGLH20,
-  author    = {Zengming Shen and
-               Yifan Chen and
-               Kevin S. Zhou and
-               Bogdan Georgescu and
-               Xuqi Liu and
-               Thomas S. Huang},
-  title     = {Learning {A} Self-Inverse Network for Bidirectional Mri Image Synthesis},
-  booktitle = {17th {IEEE} International Symposium on Biomedical Imaging, {ISBI}
-               2020, Iowa City, IA, USA, April 3-7, 2020},
-  pages     = {1765--1769},
-  publisher = {{IEEE}},
-  year      = {2020},
-  url       = {https://doi.org/10.1109/ISBI45749.2020.9098576},
-  doi       = {10.1109/ISBI45749.2020.9098576},
-  timestamp = {Sun, 07 Jun 2020 18:49:04 +0200},
-  biburl    = {https://dblp.org/rec/conf/isbi/ShenCZGLH20.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{shen2020learning,
+  title={Learning A Self-Inverse Network for Bidirectional Mri Image Synthesis},
+  author={Shen, A Zengming and Chen, B Yifan and Zhou, C Kevin S and Georgescu, D Bogdan and Liu, E Xuqi and Huang, F Thomas S},
+  booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)},
+  pages={1765--1769},
+  year={2020},
+  organization={IEEE}
 }
 ```
 
-
+i
 
 ## Related Projects
 **[CycleGAN-Torch](https://github.com/junyanz/CycleGAN) |
@@ -127,4 +115,4 @@ year = {2020}
 If you love cats, and love reading cool graphics, vision, and learning papers, please check out the Cat Paper [Collection](https://github.com/junyanz/CatPapers).
 
 ## Acknowledgments
-Our code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
+Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).

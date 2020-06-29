@@ -1,10 +1,9 @@
-<img src='imgs/horse2zebra.gif' align="right" width=384>
 
 <br><br><br>
 
-# One to one mapping for unpaired image-to-image translation in PyTorch
+# Learning A Self-Inverse Network for Bidirectional Mri Image Synthesis in PyTorch
 
-We provide PyTorch implementations for one to one mapping for unpaired image-to-image translation.
+We provide PyTorch implementations for Learning A Self-Inverse Network for Bidirectional Mri Image Synthesis.
 
 The code was written by [Zengming Shen](https://github.com/ALISCIFP).
 This PyTorch implementation produces results comparable to or better than the baseline of CycleGAN. If you would like to reproduce the same results and cmpare it with the baseline as shown in the papers, check out the baseline [CycleGAN Torch](https://github.com/junyanz/CycleGAN) code.
